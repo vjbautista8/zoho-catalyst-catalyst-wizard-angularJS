@@ -1,0 +1,273 @@
+<style>
+  .terminal {
+    position: relative;
+    width: 80%;
+    max-width: 600px;
+    border-radius: 6px;
+    padding-top: 45px;
+    margin-top: 8px;
+    overflow: hidden;
+    background-color: rgb(15, 15, 16);
+  }
+
+  .terminal::before {
+    content: "\2022 \2022 \2022";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 4px;
+    background: rgb(58, 58, 58);
+    color: #c2c3c4;
+    width: 100%;
+    font-size: 2rem;
+    line-height: 0;
+    padding: 14px 0;
+    text-indent: 4px;
+  }
+
+  .terminal pre {
+    font-family: SFMono-Regular, Consolas, Liberation Mono, Menlo, monospace;
+    color: white;
+    padding: 0 1rem 1rem;
+    margin: 0;
+  }
+</style>
+<div class="row">
+  <div class="col-md-12">
+    <div class="card">
+      <div class="card-header">
+        <h5 class="card-title">What is Zoho Catalyst ?</h5>
+        <p class="card-category" style="text-transform: none !important">
+          <a href="https://catalyst.zoho.com/">Zoho Catalyst</a> is a highly
+          comprehensive <strong>serverless development platform</strong> that
+          can be used for power applications. It provides multiple serverless
+          features that are considered important for building applications and
+          other solutions.
+        </p>
+        <p class="card-category" style="text-transform: none !important">
+          In essence, <a href="https://catalyst.zoho.com/">Zoho Catalyst</a> is
+          a <strong>serverless web applications platform</strong> that enables
+          specific vertical applications to get developed quickly, tested,
+          deployed, and even supported without worrying about global standards.
+          Essentially, it sits at the very core of the serverless strategy and
+          gives unlimited flexibility for digitalizing multiple manufacturing
+          processes.
+        </p>
+      </div>
+    </div>
+  </div>
+  <!-- <div class="col-md-12">
+
+    </div> -->
+  <div class="col-md-12">
+    <div class="card">
+      <div class="card-header">
+        <div class="row">
+          <div class="col">
+            
+          
+            <h5 class="card-title">Build Zoho Catalyst Project </h5>
+            <div class="btn-group">
+              
+              <button
+                class="btn btn-outline-info btn-round"
+                type="button"
+                disabled
+              >
+                <img src="assets/img/js.png" height="20" class="mr-2" />
+                <span style="margin: auto">Basic</span>
+              </button>
+              <button
+                class="btn btn-outline-info btn-round active"
+                type="button"
+              >
+                <img
+                  src="assets/img/angular-icon.png"
+                  height="20"
+                  class="mr-2"
+                />
+                <span style="margin: auto">Angular</span>
+              </button>
+              <button
+                class="btn btn-outline-info btn-round"
+                type="button"
+                disabled
+              >
+                <img src="assets/img/react-icon.png" height="20" class="mr-2" />
+                <span style="margin: auto">React</span>
+              </button>
+              <button
+                class="btn btn-outline-info btn-round"
+                type="button"
+                disabled
+              >
+                <img src="assets/img/java.jfif" height="20" class="mr-2" />
+                <span style="margin: auto">Java</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card-body">
+        <div class="accordion" id="accordionExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingOne">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseOne"
+                aria-expanded="false"
+                aria-controls="collapseOne"
+              >
+                Step 1: Create a Catalyst project
+              </button>
+            </h2>
+            <div
+              id="collapseOne"
+              class="accordion-collapse collapse"
+              aria-labelledby="headingOne"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                <p>
+                  The first step in developing a Catalyst application is to
+                  create a Catalyst project for it.
+                </p>
+
+                <p>
+                  <input type="checkbox" /> 1. Log in to the
+                  <a href="https://console.catalyst.zoho.com/baas/index"
+                    >Catalyst console</a
+                  >
+                  and click <strong>Create a new Project</strong>.
+                </p>
+                <p>
+                  <input type="checkbox" /> 2. Enter the project's name in the
+                  pop-up window.
+                </p>
+                <p>
+                  <input type="checkbox" /> 3. Read and accept Zoho Catalyst's
+                  terms of service, then click <strong>Create</strong>.
+                </p>
+                <p>
+                  <input type="checkbox" /> 4. Click
+                  <strong>Access Project</strong> to open it.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingTwo">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseTwo"
+                aria-expanded="false"
+                aria-controls="collapseTwo"
+              >
+                Step 2: Install Catalyst CLI
+              </button>
+            </h2>
+            <div
+              id="collapseTwo"
+              class="accordion-collapse collapse"
+              aria-labelledby="headingTwo"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                <p>
+                  Install Catalyst CLI to develop, test, and deploy Catalyst
+                  applications from your local system. Refer to this help page
+                  for a detailed guide.
+                </p>
+                <p>
+                  <input type="checkbox" /> 1. Execute this command in your
+                  terminal:
+                </p>
+                <div class="terminal mb-3">
+                  <pre>npm install -g zcatalyst-cli</pre>
+                </div>
+                <p>
+                  <input type="checkbox" /> 2. Execute this command to verify if
+                  the CLI is properly installed:
+                </p>
+                <div class="terminal mb-3">
+                  <pre>catalyst --version</pre>
+                </div>
+
+                <p>
+                  You will now be able to access the catalyst command from your
+                  terminal. Refer to the CLI help resources for detailed help
+                  with the CLI commands and actions.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingThree">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseThree"
+                aria-expanded="false"
+                aria-controls="collapseThree"
+              >
+                Step 3: Log in from your CLI
+              </button>
+            </h2>
+            <div
+              id="collapseThree"
+              class="accordion-collapse collapse"
+              aria-labelledby="headingThree"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                <p>
+                  <input type="checkbox" /> 1. Execute this command to log in to
+                  your Zoho account from the CLI:
+                </p>
+                <div class="terminal mb-3">
+                  <pre>catalyst login</pre>
+                </div>
+
+                <p>
+                  <input type="checkbox" /> 2. <strong>Type Y</strong> to allow
+                  Catalyst to collect CLI error reports and press
+                  <strong>Enter</strong>.
+                </p>
+                <div class="terminal mb-3">
+                  <pre>$ catalyst login<br/>Allow Catalyst to collect CLI error reporting information? (Y/n) : Y</pre>
+                </div>
+                <p>
+                  <input type="checkbox" /> 3. Sign in using your credentials in
+                  the Zoho accounts login page.
+                </p>
+                <p>
+                  <input type="checkbox" /> 4. Click <strong>Accept</strong> to
+                  provide data access permissions to the CLI.
+                </p>
+                <p>
+                  <input type="checkbox" /> 5. Close the browser window and
+                  continue using the CLI in your terminal.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="alert alert-info alert-with-icon alert-dismissible fade show mt-5"
+          data-notify="container"
+        >
+          
+          <span class="nc-icon nc-bell-55" data-notify="icon"></span
+          ><span data-notify="message"
+            >TO BE CONTINUED</span
+          >
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

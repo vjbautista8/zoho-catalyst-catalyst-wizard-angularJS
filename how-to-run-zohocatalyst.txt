@@ -1,0 +1,9 @@
+make sure your directory in cmd is on "./<project folder>/client" folder
+ng update @angular/core@13 --force
+ng update @angular/core@14 --force
+ng update @angular/core@15 --force
+ng update @angular-devkit/build-angular@latest
+
+then put your directory in cmd in "./<project folder>
+
+catalyst serve

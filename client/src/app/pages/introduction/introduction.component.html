@@ -1,0 +1,166 @@
+<style>
+    .card.zoho-apps {
+        background: #fff;
+        box-shadow: 0 6px 10px rgba(0, 0, 0, 0.08), 0 0 6px rgba(0, 0, 0, 0.05);
+        transition: 0.3s transform cubic-bezier(0.155, 1.105, 0.295, 1.12),
+            0.3s box-shadow,
+            0.3s -webkit-transform cubic-bezier(0.155, 1.105, 0.295, 1.12);
+
+        cursor: pointer;
+    }
+
+    .card.zoho-apps:hover {
+        transform: scale(1.05);
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12), 0 4px 8px rgba(0, 0, 0, 0.06);
+    }
+
+    /* .ribbon {
+  width: 150px;
+  height: 150px;
+  overflow: hidden;
+  position: absolute;
+}
+.ribbon::before,
+.ribbon::after {
+  position: absolute;
+  z-index: -1;
+  content: '';
+  display: block;
+  border: 5px solid #2980b9;
+}
+.ribbon span {
+  position: absolute;
+  display: block;
+  width: 225px;
+  padding: 15px 0;
+  background-color: #3498db;
+  box-shadow: 0 5px 10px rgba(0,0,0,.1);
+  color: #fff;
+  font: 700 18px/1 'Lato', sans-serif;
+  text-shadow: 0 1px 1px rgba(0,0,0,.2);
+  text-transform: uppercase;
+  text-align: center;
+}
+.ribbon-top-left {
+  top: -10px;
+  left: -10px;
+}
+.ribbon-top-left::before,
+.ribbon-top-left::after {
+  border-top-color: transparent;
+  border-left-color: transparent;
+}
+.ribbon-top-left::before {
+  top: 0;
+  right: 0;
+}
+.ribbon-top-left::after {
+  bottom: 0;
+  left: 0;
+}
+.ribbon-top-left span {
+  right: -25px;
+  top: 30px;
+  transform: rotate(-45deg);
+} */
+</style>
+
+<div class="row">
+    <div class="col-md-12">
+        <div class="card">
+            <div class="card-header">
+                <h5 class="card-title">What is Catalyst Wizard ?</h5>
+                <p class="card-category" style="text-transform: none !important">
+                    <span class="text-primary">Catalyst Wizard</span> is a website that
+                    contains list of helpful easy-to-understand guide in programming and
+                    developing <a href="https://www.zoho.com/">Zoho</a> applications.
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="row">
+    <div routerLink="/zohocatalyst" class="col-lg-5 col-md-7 col-sm-7">
+        <div class="card card-stats zoho-apps">
+            <div class="card-body">
+                <div class="row">
+                    <div class="col-5 col-md-4 t-cards" style="margin: auto !important">
+                        <div class="icon-big text-center">
+                            <img class="zoho-icons" src="assets/img/catalyst-icon.png" />
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-7">
+                        <div class="numbers">
+                            <p class="card-category">Learn</p>
+                            <p class="card-title">Zoho Catalyst</p>
+                            <p></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card-footer">
+                <hr />
+                <div class="stats">
+                    <i class="fa fa-calendar"></i> Published on
+                    <span class="text-primary">Dec 25, 2022</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-lg-5 col-md-7 col-sm-7 t-pages">
+        <div class="card card-stats zoho-apps">
+            <div class="card-body">
+                <div class="row">
+                    <div class="col-5 col-md-4" style="margin: auto !important">
+                        <div class="icon-big text-center">
+                            <img class="zoho-icons" src="assets/img/icon-crm_blue.png" />
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-7">
+                        <div class="numbers">
+                            <p class="card-category">Learn</p>
+                            <p class="card-title">Zoho CRM</p>
+                            <p></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card-footer">
+                <hr />
+                <div class="stats">
+                    <i class="fa fa-bullhorn"></i>
+                    <span class="text-danger">Not Published</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-5 col-md-7 col-sm-7">
+        <div class="card card-stats zoho-apps">
+            <div class="card-body">
+                <div class="row">
+                    <div class="col-5 col-md-4" style="margin: auto !important">
+                        <div class="icon-big text-center">
+                            <img class="nc-icon zoho-icons" src="assets/img/creator-logo.png" />
+                            <!-- <i class="nc-icon nc-globe text-warning"></i> -->
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-7">
+                        <div class="numbers">
+                            <p class="card-category">Learn</p>
+                            <p class="card-title">Zoho Creator</p>
+                            <p></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card-footer">
+                <hr />
+                <div class="stats">
+                    <i class="fa fa-bullhorn"></i>
+                    <span class="text-danger">Not Published</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

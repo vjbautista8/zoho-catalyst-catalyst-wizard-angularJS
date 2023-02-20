@@ -1,0 +1,409 @@
+[debug] [2022-12-26T00:02:14.577Z] : 
+[debug] [2022-12-26T00:02:14.578Z] : ----------------------------------------------------------------------
+[debug] [2022-12-26T00:02:14.579Z] : Command:      C:\Program Files\nodejs\node.exe C:\Users\USER\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\bin\catalyst.js serve
+[debug] [2022-12-26T00:02:14.580Z] : CLI Version:  1.13.3
+[debug] [2022-12-26T00:02:14.580Z] : Platform:     win32
+[debug] [2022-12-26T00:02:14.580Z] : Node Version: v16.15.0
+[debug] [2022-12-26T00:02:14.581Z] : Time:         Mon Dec 26 2022 08:02:14 GMT+0800 (Singapore Standard Time)
+[debug] [2022-12-26T00:02:14.582Z] : ----------------------------------------------------------------------
+[debug] [2022-12-26T00:02:14.582Z] : 
+[debug] [2022-12-26T00:02:15.206Z] : > authorizing via signed-in user option
+[debug] [2022-12-26T00:02:15.206Z] : > command requires scopes: ["ZohoCatalyst.projects.ALL","ZohoCatalyst.functions.ALL","ZohoCatalyst.functions.EXECUTE","ZohoCatalyst.webapp.ALL"]
+[debug] [2022-12-26T00:02:15.217Z] : > refreshing access token <
+[debug] [2022-12-26T00:02:15.218Z] : >>>> HTTP REQUEST : POST https://accounts.zoho.com/oauth/v2/token 
+<request body omitted>
+
+[debug] [2022-12-26T00:02:15.877Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Mon, 26 Dec 2022 00:02:15 GMT","content-type":"application/json;charset=UTF-8","content-length":"2728","connection":"close","set-cookie":["b266a5bf57=89d92f43aea9a45e372e725091716b73; Path=/","iamcsr=bb7c2fa8-cfc4-47e5-bca7-1f51ec6965b0;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=bb7c2fa8-cfc4-47e5-bca7-1f51ec6965b0;path=/;SameSite=Strict;Secure;priority=high"],"cache-control":"no-store","x-content-type-options":"nosniff","pragma":"no-cache","x-xss-protection":"1","x-frame-options":"SAMEORIGIN","vary":"accept-encoding","content-language":"en-US","strict-transport-security":"max-age=63072000"}
+
+[debug] [2022-12-26T00:02:15.908Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/12143000000032001 
+
+[debug] [2022-12-26T00:02:16.762Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Mon, 26 Dec 2022 00:02:16 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["46512fd555=b7a3bc718e4dbb4cefdbefada3d425ef; Path=/","ZD_CSRF_TOKEN=b6b35f9c-de34-47bf-b346-702727bdb2bc;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=b6b35f9c-de34-47bf-b346-702727bdb2bc;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","pragma":"no-cache","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2022-12-26T00:02:16.764Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/12143000000032001/environment 
+
+[debug] [2022-12-26T00:02:17.463Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Mon, 26 Dec 2022 00:02:17 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["46512fd555=b600a79736824f0f5ea00c6de1be4009; Path=/","ZD_CSRF_TOKEN=d5dcfd11-202e-43bd-9b51-8e21a964ae82;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=d5dcfd11-202e-43bd-9b51-8e21a964ae82;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","pragma":"no-cache","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[info] [2022-12-26T00:02:18.049Z] : i client[app]: Plugin : "zcatalyst-cli-plugin-angular" is used for client serve
+[debug] [2022-12-26T00:02:18.225Z] : No basic functions to add
+[info] [2022-12-26T00:02:20.099Z] : [Angular-plugin]: NOTICE: Hot Module Replacement (HMR) is enabled for the dev server.
+[Angular-plugin]: See https://webpack.js.org/guides/hot-module-replacement for information on working with HMR for Webpack.
+[info] [2022-12-26T00:02:21.093Z] : [Angular-plugin]:     TypeScript compiler options "target" and "useDefineForClassFields" are set to "ES2022" and "false" respectively by the Angular CLI. To control ECMA version and features use the Browerslist configuration. For more information, see https://angular.io/guide/build#configuring-browser-compatibility
+[info] [2022-12-26T00:02:25.217Z] : [Angular-plugin]: 
+[Angular-plugin]: Initial Chunk Files   | Names         |  Raw Size
+[Angular-plugin]: vendor.js             | vendor        |   2.55 MB | 
+[Angular-plugin]: styles.css, styles.js | styles        | 338.92 kB | 
+[Angular-plugin]: polyfills.js          | polyfills     | 321.06 kB | 
+[Angular-plugin]: main.js               | main          |  94.59 kB | 
+[Angular-plugin]: runtime.js            | runtime       |  48.06 kB | 
+[Angular-plugin]: 
+[Angular-plugin]:                       | Initial Total |   3.33 MB
+[Angular-plugin]: 
+[Angular-plugin]: Build at: 2022-12-26T00:02:25.160Z - Hash: a6e88ba74955b39e - Time: 3640ms
+[info] [2022-12-26T00:02:25.219Z] : [Angular-plugin]: 
+[Angular-plugin]: ** Angular Live Development Server is listening on localhost:3030, open your browser on http://localhost:3030/app **
+[Angular-plugin]: 
+[info] [2022-12-26T00:02:25.220Z] : [Angular-plugin]: 
+[Angular-plugin]: √ Compiled successfully.
+[info] [2022-12-26T00:02:25.275Z] : [Angular-plugin]: Please visit this url to access app: http://localhost:3000/app/
+[info] [2022-12-26T00:02:31.822Z] : Shutting down server
+[debug] [2022-12-26T00:02:31.823Z] : proxy closed
+[info] [2022-12-26T00:02:31.824Z] : 
+[info] [2022-12-26T00:02:31.825Z] : √ Shutdown complete
+[debug] [2022-12-26T00:02:31.825Z] : NO ERRORS REGISTERED
+[debug] [2022-12-26T00:02:31.825Z] : EXEC ENDED with event: serve, message: success
+[debug] [2022-12-26T00:02:31.826Z] : TOTAL DURATION OF COMMAND EXEC : 16633
+[debug] [2022-12-26T00:03:08.790Z] : 
+[debug] [2022-12-26T00:03:08.791Z] : ----------------------------------------------------------------------
+[debug] [2022-12-26T00:03:08.791Z] : Command:      C:\Program Files\nodejs\node.exe C:\Users\USER\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\bin\catalyst.js deploy
+[debug] [2022-12-26T00:03:08.791Z] : CLI Version:  1.13.3
+[debug] [2022-12-26T00:03:08.792Z] : Platform:     win32
+[debug] [2022-12-26T00:03:08.792Z] : Node Version: v16.15.0
+[debug] [2022-12-26T00:03:08.793Z] : Time:         Mon Dec 26 2022 08:03:08 GMT+0800 (Singapore Standard Time)
+[debug] [2022-12-26T00:03:08.794Z] : ----------------------------------------------------------------------
+[debug] [2022-12-26T00:03:08.794Z] : 
+[debug] [2022-12-26T00:03:09.422Z] : > authorizing via signed-in user option
+[debug] [2022-12-26T00:03:09.422Z] : > command requires scopes: ["ZohoCatalyst.projects.ALL","ZohoCatalyst.functions.ALL","ZohoCatalyst.webapp.ALL"]
+[debug] [2022-12-26T00:03:09.433Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/12143000000032001 
+
+[debug] [2022-12-26T00:03:10.162Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Mon, 26 Dec 2022 00:03:10 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["46512fd555=a217ea28e1adda87f84f999a20258a4d; Path=/","ZD_CSRF_TOKEN=d0a6a5f9-79f0-46e3-8ca7-eb2db471c3d1;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=d0a6a5f9-79f0-46e3-8ca7-eb2db471c3d1;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","pragma":"no-cache","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2022-12-26T00:03:10.169Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/12143000000032001/environment 
+
+[debug] [2022-12-26T00:03:10.954Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Mon, 26 Dec 2022 00:03:10 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["46512fd555=b600a79736824f0f5ea00c6de1be4009; Path=/","ZD_CSRF_TOKEN=de2f271f-0031-4270-8aaf-948d7bd1818c;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=de2f271f-0031-4270-8aaf-948d7bd1818c;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","pragma":"no-cache","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[info] [2022-12-26T00:03:11.240Z] : i Plugin : "zcatalyst-cli-plugin-angular" is used for client deploy
+[info] [2022-12-26T00:03:11.241Z] : i Building Application...
+[info] [2022-12-26T00:03:12.605Z] : [Angular-plugin]: Option "deployUrl" is deprecated: Use "baseHref" option, "APP_BASE_HREF" DI token or a combination of both instead. For more information, see https://angular.io/guide/deployment#the-deploy-url.
+[info] [2022-12-26T00:03:13.371Z] : [Angular-plugin]:     TypeScript compiler options "target" and "useDefineForClassFields" are set to "ES2022" and "false" respectively by the Angular CLI. To control ECMA version and features use the Browerslist configuration. For more information, see https://angular.io/guide/build#configuring-browser-compatibility
+[info] [2022-12-26T00:03:30.670Z] : [Angular-plugin]: 
+[Angular-plugin]: Initial Chunk Files           | Names         |  Raw Size | Estimated Transfer Size
+[Angular-plugin]: main.750299ab6f7aaf1d.js      | main          | 279.36 kB |                71.04 kB
+[Angular-plugin]: styles.4b15d9c29f332e90.css   | styles        | 108.98 kB |                 9.45 kB
+[Angular-plugin]: polyfills.d00ba71d24f64d98.js | polyfills     |  33.06 kB |                10.63 kB
+[Angular-plugin]: runtime.231e96734c9fdc57.js   | runtime       |   1.03 kB |               595 bytes
+[Angular-plugin]: 
+[Angular-plugin]:                               | Initial Total | 422.43 kB |                91.70 kB
+[Angular-plugin]: 
+[Angular-plugin]: Build at: 2022-12-26T00:03:30.668Z - Hash: 93ae523b8ba5ab52 - Time: 17033ms
+[info] [2022-12-26T00:03:30.671Z] : [Angular-plugin]: 
+[Angular-plugin]: Warning: C:/Users/USER/Desktop/CATALYST WIZARD/client/src/app/app.component.css exceeded maximum budget. Budget 2.00 kB was not met by 1.68 kB with a total of 3.68 kB.
+[Angular-plugin]: 
+[Angular-plugin]: Warning: C:/Users/USER/Desktop/CATALYST WIZARD/client/src/app/home/home.component.css exceeded maximum budget. Budget 2.00 kB was not met by 1.93 kB with a total of 3.93 kB.
+[Angular-plugin]: 
+[Angular-plugin]: 
+[debug] [2022-12-26T00:03:30.897Z] : >>>> HTTP REQUEST : POST https://api.catalyst.zoho.com/baas/v1/project/12143000000032001/webapp 
+
+[debug] [2022-12-26T00:03:34.436Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Mon, 26 Dec 2022 00:03:34 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["46512fd555=a217ea28e1adda87f84f999a20258a4d; Path=/","ZD_CSRF_TOKEN=38efbfa5-00d8-423b-9392-f3e7ac0ad49f;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=38efbfa5-00d8-423b-9392-f3e7ac0ad49f;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","pragma":"no-cache","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[info] [2022-12-26T00:03:34.439Z] : 
+[info] [2022-12-26T00:03:34.440Z] : √ client: deploy successful
+[info] [2022-12-26T00:03:34.441Z] : i client: URL => https://catalyst-wizard-771945458.development.catalystserverless.com/app/index.html
+[info] [2022-12-26T00:03:34.442Z] : 
+[info] [2022-12-26T00:03:34.442Z] : √ Catalyst deploy complete!
+[debug] [2022-12-26T00:03:34.443Z] : NO ERRORS REGISTERED
+[debug] [2022-12-26T00:03:34.444Z] : EXEC ENDED with event: deploy, message: success
+[debug] [2022-12-26T00:03:34.444Z] : TOTAL DURATION OF COMMAND EXEC : 25035
+[debug] [2022-12-26T00:15:45.820Z] : 
+[debug] [2022-12-26T00:15:45.821Z] : ----------------------------------------------------------------------
+[debug] [2022-12-26T00:15:45.822Z] : Command:      C:\Program Files\nodejs\node.exe C:\Users\USER\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\bin\catalyst.js serve
+[debug] [2022-12-26T00:15:45.822Z] : CLI Version:  1.13.3
+[debug] [2022-12-26T00:15:45.823Z] : Platform:     win32
+[debug] [2022-12-26T00:15:45.823Z] : Node Version: v16.15.0
+[debug] [2022-12-26T00:15:45.824Z] : Time:         Mon Dec 26 2022 08:15:45 GMT+0800 (Singapore Standard Time)
+[debug] [2022-12-26T00:15:45.824Z] : ----------------------------------------------------------------------
+[debug] [2022-12-26T00:15:45.824Z] : 
+[debug] [2022-12-26T00:15:46.458Z] : > authorizing via signed-in user option
+[debug] [2022-12-26T00:15:46.459Z] : > command requires scopes: ["ZohoCatalyst.projects.ALL","ZohoCatalyst.functions.ALL","ZohoCatalyst.functions.EXECUTE","ZohoCatalyst.webapp.ALL"]
+[debug] [2022-12-26T00:15:46.469Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/12143000000032001 
+
+[debug] [2022-12-26T00:15:47.350Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Mon, 26 Dec 2022 00:15:47 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["46512fd555=b600a79736824f0f5ea00c6de1be4009; Path=/","ZD_CSRF_TOKEN=a5dcdb94-e910-4857-8e3b-a4c6af7f747c;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=a5dcdb94-e910-4857-8e3b-a4c6af7f747c;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","pragma":"no-cache","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2022-12-26T00:15:47.353Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/12143000000032001/environment 
+
+[debug] [2022-12-26T00:15:48.078Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Mon, 26 Dec 2022 00:15:47 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["46512fd555=b7a3bc718e4dbb4cefdbefada3d425ef; Path=/","ZD_CSRF_TOKEN=615aeacd-828a-427e-9383-4d4f8a5e0eaa;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=615aeacd-828a-427e-9383-4d4f8a5e0eaa;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","pragma":"no-cache","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2022-12-26T00:15:48.225Z] : CatalystError: Module path does not exists
+    at C:\Users\USER\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\optional-import.js:49:19
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Users\USER\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\optional-import.js:28:58) {
+  status: 500,
+  exit: 1,
+  original: undefined,
+  context: undefined,
+  errorId: 'OPT-IMP-1',
+  arg: [
+    '\x1B[1mzcatalyst-cli-plugin-angular\x1B[22m',
+    '\x1B[3m\x1B[31mC:\\Users\\USER\\Desktop\\CATALYST WIZARD\\client\\node_modules\\zcatalyst-cli-plugin-angular\x1B[39m\x1B[23m',
+    '\x1B[1mclient\x1B[22m'
+  ],
+  skipHelp: false,
+  fileName: 'C:\\Users\\USER\\AppData\\Roaming\\npm\\node_modules\\zcatalyst-cli\\lib\\optional-import'
+}
+[debug] [2022-12-26T00:15:48.229Z] : CatalystError: Module path does not exists
+    at C:\Users\USER\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\optional-import.js:49:19
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Users\USER\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\optional-import.js:28:58) {
+  status: 500,
+  exit: 1,
+  original: undefined,
+  context: undefined,
+  errorId: 'OPT-IMP-1',
+  arg: [
+    '\x1B[1mzcatalyst-cli-plugin-angular\x1B[22m',
+    '\x1B[3m\x1B[31mC:\\Users\\USER\\Desktop\\CATALYST WIZARD\\client\\node_modules\\zcatalyst-cli-plugin-angular\x1B[39m\x1B[23m',
+    '\x1B[1mclient\x1B[22m'
+  ],
+  skipHelp: false,
+  fileName: 'C:\\Users\\USER\\AppData\\Roaming\\npm\\node_modules\\zcatalyst-cli\\lib\\optional-import'
+}
+[debug] [2022-12-26T00:15:48.379Z] : No basic functions to add
+[info] [2022-12-26T00:15:48.384Z] : ℹ client[app]: URL : http://localhost:3000/app/
+[error] [2022-12-26T00:15:50.678Z] : ✖ Error when serving the web-client: Unable to read the homepage file
+[info] [2022-12-26T00:15:50.679Z] : Please exit the command to get more info
+[debug] [2022-12-26T00:15:50.743Z] : client server closed
+[info] [2022-12-26T00:18:50.303Z] : Shutting down server
+[debug] [2022-12-26T00:18:50.307Z] : Error when fetching the help
+[debug] [2022-12-26T00:18:50.307Z] : No Help found for errorId: OPT-IMP-1
+[error] [2022-12-26T00:18:50.308Z] : ✖ Module path does not exists
+[debug] [2022-12-26T00:18:50.308Z] : Error Stack: CatalystError: Module path does not exists
+    at C:\Users\USER\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\optional-import.js:49:19
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Users\USER\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\optional-import.js:28:58)
+[debug] [2022-12-26T00:18:50.308Z] : Error Status: 500
+[debug] [2022-12-26T00:18:50.309Z] : Error when fetching the help
+[debug] [2022-12-26T00:18:50.309Z] : No Help found for errorId: WEB-CLIENT-SERVER-1
+[error] [2022-12-26T00:18:50.309Z] : ✖ Unable to read the homepage file
+[debug] [2022-12-26T00:18:50.309Z] : Error Stack: CatalystError: Unable to read the homepage file
+    at C:\Users\USER\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\serve\server\lib\web_client\server.js:134:49
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Users\USER\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\serve\server\lib\web_client\server.js:5:58)
+[debug] [2022-12-26T00:18:50.309Z] : Error Status: 500
+[error] [2022-12-26T00:18:50.310Z] : ✖ An unexpected error has occurred.
+[debug] [2022-12-26T00:18:50.310Z] : Error Stack: CatalystError: An unexpected error has occurred.
+    at exports.default (C:\Users\USER\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\errorOut.js:12:17)
+    at process.<anonymous> (C:\Users\USER\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\bin\catalyst.js:90:28)
+    at process.emit (node:events:527:28)
+    at emit (node:internal/process/promises:140:20)
+    at processPromiseRejections (node:internal/process/promises:274:27)
+    at processTicksAndRejections (node:internal/process/task_queues:97:32)
+[debug] [2022-12-26T00:18:50.310Z] : Original Error: Error: Error [ERR_SERVER_NOT_RUNNING]: Server is not running.
+    at new NodeError (node:internal/errors:372:5)
+    at Server.close (node:net:1675:12)
+    at Object.onceWrapper (node:events:641:28)
+    at Server.emit (node:events:527:28)
+    at emitCloseNT (node:net:1728:8)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  code: 'ERR_SERVER_NOT_RUNNING'
+}
+    at exports.default (C:\Users\USER\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\errorOut.js:14:23)
+    at process.<anonymous> (C:\Users\USER\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\bin\catalyst.js:90:28)
+    at process.emit (node:events:527:28)
+    at emit (node:internal/process/promises:140:20)
+    at processPromiseRejections (node:internal/process/promises:274:27)
+    at processTicksAndRejections (node:internal/process/task_queues:97:32)
+[debug] [2022-12-26T00:18:50.310Z] : Error Status: 500
+[info] [2022-12-26T00:18:50.311Z] : Kindly contact Catalyst support [support@zohocatalyst.com] if you need any further assistance
+[info] [2022-12-26T00:18:50.312Z] : 
+[info] [2022-12-26T00:18:50.312Z] : ✔ Shutdown complete
+[debug] [2022-12-26T00:18:50.313Z] : Error when fetching the help
+[debug] [2022-12-26T00:18:50.313Z] : No Help found for errorId: OPT-IMP-1
+[error] [2022-12-26T00:18:50.313Z] : ✖ Module path does not exists
+[debug] [2022-12-26T00:18:50.313Z] : Error Stack: CatalystError: Module path does not exists
+    at C:\Users\USER\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\optional-import.js:49:19
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Users\USER\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\optional-import.js:28:58)
+[debug] [2022-12-26T00:18:50.313Z] : Error Status: 500
+[debug] [2022-12-26T00:18:50.315Z] : EXEC ENDED with event: serve, message: success
+[debug] [2022-12-26T00:18:50.315Z] : TOTAL DURATION OF COMMAND EXEC : 183867
+[debug] [2022-12-26T00:19:43.573Z] : 
+[debug] [2022-12-26T00:19:43.574Z] : ----------------------------------------------------------------------
+[debug] [2022-12-26T00:19:43.575Z] : Command:      C:\Program Files\nodejs\node.exe C:\Users\USER\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\bin\catalyst.js serve
+[debug] [2022-12-26T00:19:43.575Z] : CLI Version:  1.13.3
+[debug] [2022-12-26T00:19:43.575Z] : Platform:     win32
+[debug] [2022-12-26T00:19:43.576Z] : Node Version: v16.15.0
+[debug] [2022-12-26T00:19:43.577Z] : Time:         Mon Dec 26 2022 08:19:43 GMT+0800 (Singapore Standard Time)
+[debug] [2022-12-26T00:19:43.578Z] : ----------------------------------------------------------------------
+[debug] [2022-12-26T00:19:43.578Z] : 
+[debug] [2022-12-26T00:19:44.234Z] : > authorizing via signed-in user option
+[debug] [2022-12-26T00:19:44.234Z] : > command requires scopes: ["ZohoCatalyst.projects.ALL","ZohoCatalyst.functions.ALL","ZohoCatalyst.functions.EXECUTE","ZohoCatalyst.webapp.ALL"]
+[debug] [2022-12-26T00:19:44.244Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/12143000000032001 
+
+[debug] [2022-12-26T00:19:45.048Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Mon, 26 Dec 2022 00:19:44 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["46512fd555=ec6fba605ac6cd7c45f388d13bad2417; Path=/","ZD_CSRF_TOKEN=b7fcfffd-17a0-44e5-9b19-c0c7da052064;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=b7fcfffd-17a0-44e5-9b19-c0c7da052064;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","pragma":"no-cache","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2022-12-26T00:19:45.053Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/12143000000032001/environment 
+
+[debug] [2022-12-26T00:19:45.741Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Mon, 26 Dec 2022 00:19:45 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["46512fd555=b7a3bc718e4dbb4cefdbefada3d425ef; Path=/","ZD_CSRF_TOKEN=50eade8a-d067-4118-866f-050846bdfafe;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=50eade8a-d067-4118-866f-050846bdfafe;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","pragma":"no-cache","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2022-12-26T00:19:45.916Z] : CatalystError: Module path does not exists
+    at C:\Users\USER\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\optional-import.js:49:19
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Users\USER\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\optional-import.js:28:58) {
+  status: 500,
+  exit: 1,
+  original: undefined,
+  context: undefined,
+  errorId: 'OPT-IMP-1',
+  arg: [
+    '\x1B[1mzcatalyst-cli-plugin-angular\x1B[22m',
+    '\x1B[3m\x1B[31mC:\\Users\\USER\\Desktop\\CATALYST WIZARD\\client\\node_modules\\zcatalyst-cli-plugin-angular\x1B[39m\x1B[23m',
+    '\x1B[1mclient\x1B[22m'
+  ],
+  skipHelp: false,
+  fileName: 'C:\\Users\\USER\\AppData\\Roaming\\npm\\node_modules\\zcatalyst-cli\\lib\\optional-import'
+}
+[debug] [2022-12-26T00:19:45.921Z] : CatalystError: Module path does not exists
+    at C:\Users\USER\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\optional-import.js:49:19
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Users\USER\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\optional-import.js:28:58) {
+  status: 500,
+  exit: 1,
+  original: undefined,
+  context: undefined,
+  errorId: 'OPT-IMP-1',
+  arg: [
+    '\x1B[1mzcatalyst-cli-plugin-angular\x1B[22m',
+    '\x1B[3m\x1B[31mC:\\Users\\USER\\Desktop\\CATALYST WIZARD\\client\\node_modules\\zcatalyst-cli-plugin-angular\x1B[39m\x1B[23m',
+    '\x1B[1mclient\x1B[22m'
+  ],
+  skipHelp: false,
+  fileName: 'C:\\Users\\USER\\AppData\\Roaming\\npm\\node_modules\\zcatalyst-cli\\lib\\optional-import'
+}
+[debug] [2022-12-26T00:19:46.056Z] : No basic functions to add
+[info] [2022-12-26T00:19:46.060Z] : ℹ client[app]: URL : http://localhost:3000/app/
+[error] [2022-12-26T00:19:48.415Z] : ✖ Error when serving the web-client: Unable to read the homepage file
+[info] [2022-12-26T00:19:48.416Z] : Please exit the command to get more info
+[debug] [2022-12-26T00:19:48.479Z] : client server closed
+[debug] [2022-12-26T00:25:49.236Z] : 
+[debug] [2022-12-26T00:25:49.237Z] : ----------------------------------------------------------------------
+[debug] [2022-12-26T00:25:49.237Z] : Command:      C:\Program Files\nodejs\node.exe C:\Users\USER\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\bin\catalyst.js pull
+[debug] [2022-12-26T00:25:49.237Z] : CLI Version:  1.13.3
+[debug] [2022-12-26T00:25:49.238Z] : Platform:     win32
+[debug] [2022-12-26T00:25:49.238Z] : Node Version: v16.15.0
+[debug] [2022-12-26T00:25:49.239Z] : Time:         Mon Dec 26 2022 08:25:49 GMT+0800 (Singapore Standard Time)
+[debug] [2022-12-26T00:25:49.239Z] : ----------------------------------------------------------------------
+[debug] [2022-12-26T00:25:49.240Z] : 
+[debug] [2022-12-26T00:25:49.872Z] : > authorizing via signed-in user option
+[debug] [2022-12-26T00:25:49.873Z] : > command requires scopes: ["ZohoCatalyst.projects.ALL","ZohoCatalyst.functions.ALL","ZohoCatalyst.webapp.ALL"]
+[debug] [2022-12-26T00:25:49.883Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/12143000000032001 
+
+[debug] [2022-12-26T00:25:50.720Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Mon, 26 Dec 2022 00:25:50 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["46512fd555=b600a79736824f0f5ea00c6de1be4009; Path=/","ZD_CSRF_TOKEN=56460d05-1579-41b1-a5b2-2cb0362e4c32;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=56460d05-1579-41b1-a5b2-2cb0362e4c32;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","pragma":"no-cache","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2022-12-26T00:25:50.725Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/12143000000032001/environment 
+
+[debug] [2022-12-26T00:25:51.419Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Mon, 26 Dec 2022 00:25:51 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["46512fd555=a217ea28e1adda87f84f999a20258a4d; Path=/","ZD_CSRF_TOKEN=ad081a5c-5b2a-4cee-a05a-384ab9256538;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=ad081a5c-5b2a-4cee-a05a-384ab9256538;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","pragma":"no-cache","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[info] [2022-12-26T00:25:51.423Z] : 
+
+You're about to pull your Catalyst project in this directory:
+
+  C:\Users\USER\Desktop\CATALYST WIZARD
+
+Before we get started, keep in mind:
+
+  * You are initializing in an existing Catalyst project directory
+
+[info] [2022-12-26T00:26:18.005Z] : 
+===> Functions Setup
+[debug] [2022-12-26T00:26:18.016Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/12143000000032001/function 
+Query params: {"type":"basicio,event,cron,applogic,integration"}
+
+[debug] [2022-12-26T00:26:18.797Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Mon, 26 Dec 2022 00:26:18 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["46512fd555=b7a3bc718e4dbb4cefdbefada3d425ef; Path=/","ZD_CSRF_TOKEN=e791fb98-09a5-4aa1-9952-69a514a17638;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=e791fb98-09a5-4aa1-9952-69a514a17638;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","pragma":"no-cache","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[info] [2022-12-26T00:26:18.799Z] : No function found in remote console.
+[info] [2022-12-26T00:26:18.801Z] : 
+===> Client Setup
+[debug] [2022-12-26T00:26:18.827Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/12143000000032001/webapp/history 
+
+[debug] [2022-12-26T00:26:19.541Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Mon, 26 Dec 2022 00:26:19 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["46512fd555=a217ea28e1adda87f84f999a20258a4d; Path=/","ZD_CSRF_TOKEN=06b8d0e3-61d5-454e-aa73-45832383b455;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=06b8d0e3-61d5-454e-aa73-45832383b455;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","pragma":"no-cache","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[info] [2022-12-26T00:26:23.076Z] : 
+[warn] [2022-12-26T00:26:23.077Z] : ‼ Skipping pull of client. Since EBUSY: resource busy or locked, rmdir 'C:\Users\USER\Desktop\CATALYST WIZARD\client'.
+Contact Catalyst Support with catalyst-debug.log file.
+[info] [2022-12-26T00:26:23.077Z] : 
+===> Apig Setup
+[debug] [2022-12-26T00:26:23.095Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/12143000000032001/api-gateway 
+
+[debug] [2022-12-26T00:26:23.859Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Mon, 26 Dec 2022 00:26:23 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["46512fd555=b600a79736824f0f5ea00c6de1be4009; Path=/","ZD_CSRF_TOKEN=41bbfd60-f021-4457-b290-598d59d9c5fe;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=41bbfd60-f021-4457-b290-598d59d9c5fe;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","pragma":"no-cache","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[info] [2022-12-26T00:26:23.860Z] : 
+[info] [2022-12-26T00:26:29.267Z] : Skipping APIG pull. Since the APIG is disabled in catalyst console.
+[info] [2022-12-26T00:26:29.268Z] : 
+[error] [2022-12-26T00:26:29.268Z] : × No catalyst resources pulled !!!
+[debug] [2022-12-26T00:26:29.268Z] : NO ERRORS REGISTERED
+[debug] [2022-12-26T00:26:29.269Z] : EXEC ENDED with event: pull, message: success
+[debug] [2022-12-26T00:26:29.269Z] : TOTAL DURATION OF COMMAND EXEC : 39410
+[debug] [2022-12-26T00:27:05.099Z] : 
+[debug] [2022-12-26T00:27:05.100Z] : ----------------------------------------------------------------------
+[debug] [2022-12-26T00:27:05.100Z] : Command:      C:\Program Files\nodejs\node.exe C:\Users\USER\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\bin\catalyst.js serve
+[debug] [2022-12-26T00:27:05.101Z] : CLI Version:  1.13.3
+[debug] [2022-12-26T00:27:05.101Z] : Platform:     win32
+[debug] [2022-12-26T00:27:05.101Z] : Node Version: v16.15.0
+[debug] [2022-12-26T00:27:05.102Z] : Time:         Mon Dec 26 2022 08:27:05 GMT+0800 (Singapore Standard Time)
+[debug] [2022-12-26T00:27:05.103Z] : ----------------------------------------------------------------------
+[debug] [2022-12-26T00:27:05.103Z] : 
+[debug] [2022-12-26T00:27:05.744Z] : > authorizing via signed-in user option
+[debug] [2022-12-26T00:27:05.745Z] : > command requires scopes: ["ZohoCatalyst.projects.ALL","ZohoCatalyst.functions.ALL","ZohoCatalyst.functions.EXECUTE","ZohoCatalyst.webapp.ALL"]
+[debug] [2022-12-26T00:27:05.756Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/12143000000032001 
+
+[debug] [2022-12-26T00:27:06.596Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Mon, 26 Dec 2022 00:27:06 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["46512fd555=b600a79736824f0f5ea00c6de1be4009; Path=/","ZD_CSRF_TOKEN=a583ee7f-d48e-45af-a9b2-cc3248fd1f65;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=a583ee7f-d48e-45af-a9b2-cc3248fd1f65;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","pragma":"no-cache","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2022-12-26T00:27:06.600Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/12143000000032001/environment 
+
+[debug] [2022-12-26T00:27:07.318Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Mon, 26 Dec 2022 00:27:07 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["46512fd555=a217ea28e1adda87f84f999a20258a4d; Path=/","ZD_CSRF_TOKEN=d82996dd-e189-43d5-8dc9-4812e2d993e5;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=d82996dd-e189-43d5-8dc9-4812e2d993e5;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","pragma":"no-cache","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2022-12-26T00:27:07.493Z] : CatalystError: Module path does not exists
+    at C:\Users\USER\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\optional-import.js:49:19
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Users\USER\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\optional-import.js:28:58) {
+  status: 500,
+  exit: 1,
+  original: undefined,
+  context: undefined,
+  errorId: 'OPT-IMP-1',
+  arg: [
+    '\x1B[1mzcatalyst-cli-plugin-angular\x1B[22m',
+    '\x1B[3m\x1B[31mC:\\Users\\USER\\Desktop\\CATALYST WIZARD\\client\\node_modules\\zcatalyst-cli-plugin-angular\x1B[39m\x1B[23m',
+    '\x1B[1mclient\x1B[22m'
+  ],
+  skipHelp: false,
+  fileName: 'C:\\Users\\USER\\AppData\\Roaming\\npm\\node_modules\\zcatalyst-cli\\lib\\optional-import'
+}
+[debug] [2022-12-26T00:27:07.499Z] : CatalystError: Module path does not exists
+    at C:\Users\USER\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\optional-import.js:49:19
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Users\USER\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\optional-import.js:28:58) {
+  status: 500,
+  exit: 1,
+  original: undefined,
+  context: undefined,
+  errorId: 'OPT-IMP-1',
+  arg: [
+    '\x1B[1mzcatalyst-cli-plugin-angular\x1B[22m',
+    '\x1B[3m\x1B[31mC:\\Users\\USER\\Desktop\\CATALYST WIZARD\\client\\node_modules\\zcatalyst-cli-plugin-angular\x1B[39m\x1B[23m',
+    '\x1B[1mclient\x1B[22m'
+  ],
+  skipHelp: false,
+  fileName: 'C:\\Users\\USER\\AppData\\Roaming\\npm\\node_modules\\zcatalyst-cli\\lib\\optional-import'
+}
+[debug] [2022-12-26T00:27:07.634Z] : No basic functions to add
+[info] [2022-12-26T00:27:07.638Z] : i client[app]: URL : http://localhost:3000/app/
+[error] [2022-12-26T00:27:09.813Z] : × Error when serving the web-client: Unable to read the homepage file
+[info] [2022-12-26T00:27:09.813Z] : Please exit the command to get more info
+[debug] [2022-12-26T00:27:09.876Z] : client server closed

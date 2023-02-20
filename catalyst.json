@@ -1,0 +1,6 @@
+{
+  "client": {
+    "source": "client",
+    "plugin": "zcatalyst-cli-plugin-angular"
+  }
+}
