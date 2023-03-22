@@ -10,12 +10,13 @@
   "projects": [
     {
       "idx": 1,
-      "id": "12143000000032001",
-      "name": "Catalyst-Wizard",
+      "id": "12143000000032070",
+      "name": "catalyst-wizard",
       "domain": {
-        "id": "10051342715",
+        "id": "10051343472",
         "name": "catalyst-wizard-771945458.development"
       },
+      "timezone": "America/Los_Angeles",
       "env": [
         {
           "idx": 1,
